@@ -12,3 +12,10 @@ Traceback (most recent call last):
     self.hog = cv2.HOGDescriptor()
                ^^^^^^^^^^^^^^^^^
 AttributeError: module 'cv2' has no attribute 'HOGDescriptor'
+2026-10-19 17:48:45,025 - __main__ - INFO - Initializing Queue Detection System
+2026-10-19 17:48:45,025 - __main__ - INFO - Loading YOLO model: yolov8n.pt
+2026-10-19 17:49:16,653 - __main__ - INFO - YOLO model loaded successfully
+2026-10-19 17:49:16,776 - __main__ - INFO - Starting queue detection
+2026-10-19 17:49:52,489 - __main__ - INFO - Exit signal received
+2026-10-19 17:49:52,489 - __main__ - INFO - Shutting down system
+2026-10-19 17:49:52,529 - __main__ - INFO - Queue data saved to queue_output/queue_data.csv
